@@ -52,7 +52,7 @@ def main():
     st.session_state.example_query_selector = get_example_query()
 
     # Clear chat everytime pages move
-    clear_chat_history()
+    # clear_chat_history()
 
 
     if "example_query_selector" not in st.session_state:
