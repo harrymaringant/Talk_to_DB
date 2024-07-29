@@ -2,7 +2,6 @@ import os
 import json
 import streamlit as st
 import sys
-import path
 from langchain_community.vectorstores import FAISS
 from src.examples import query
 from langchain_google_genai import (

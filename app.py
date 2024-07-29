@@ -3,7 +3,6 @@ import os
 from src.talk_to_db_data_prep import Prep
 from src.agent import SQLAgent
 import tempfile
-from pathlib import Path
 import shutil
 # extracting text from document
 
